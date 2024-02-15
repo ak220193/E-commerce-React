@@ -1,2 +1,5 @@
 # E-commerce-React
-Complete E-commerce React Application Using React, Redux, materailui, Restapi, Mangodb, stripe. 
+LuxeDivas 
+Complete E-commerce React Application designed Using React, Redux, React-icons, Swiperjs, materailui, Restapi, Mangodb, stripe. 
+
+
