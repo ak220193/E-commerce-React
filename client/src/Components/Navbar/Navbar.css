@@ -19,13 +19,11 @@
 .nav__center{
     flex: 1;
     text-align: center;
+    font-family: "Dancing Script", cursive;
 }
 
 .nav__right{
-    display: flex;
     flex: 1;
-    align-items: center;
-    justify-content: flex-end;
 }
 
 .nav__language{
@@ -34,32 +32,32 @@
 }
 
 .nav__searchbar{
-    border: 1px solid lightgrey;
     width: 35%;
     display: flex;
     align-items: center;
     margin-left: 25px;
     padding: 5px;
     border-radius: 10px;
+    border: 1px solid lightgray;
 }
-.nav__input input{
+.nav__input input {
     border: none;
 }
+
 
 .Menu-item{
     font-size: 15px;
     cursor: pointer;
     display: flex;
-    gap:10%;
-    margin-right: 40px;
-
-
-}
-
-.cart-icon{
+    gap:5%;
+    margin-left: 3rem;
+    justify-content: center;
     
-    width: 100%;
-    height: 100%;
-    padding: 2px;
 }
+.icon{
+    display: flex;
+    gap: 20px;
+}
+
+
 

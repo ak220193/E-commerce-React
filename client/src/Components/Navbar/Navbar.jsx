@@ -2,6 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import { IoSearch } from "react-icons/io5";
 import { FiShoppingCart } from "react-icons/fi";
+import { FaHeart } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -27,7 +28,11 @@ const Navbar = () => {
           <div> Register </div>
           <div> Sign-in</div>
           
-          <div className="cart-icon">  <FiShoppingCart/></div>
+          <div className="icon">
+          <div className="icon__fav"><FaHeart/></div>
+          <div className="icon__cart"><FiShoppingCart/> </div>
+          
+          </div>
          
           </div>
         </div>
