@@ -1,4 +1,4 @@
-export const apidata = [
+export const navitems = [
     {
         id:1,
         text: "Deal for the day :  10% offer on selected Products"
