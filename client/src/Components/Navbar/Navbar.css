@@ -42,6 +42,7 @@
 }
 .nav__input input {
     border: none;
+    outline: none;
 }
 
 
