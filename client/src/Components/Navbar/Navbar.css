@@ -1,64 +1,59 @@
-.nav__container{
-    height: 60px;
-    margin-top: 4px;
+.nav__container {
+  height: 60px;
+  margin-top: 4px;
 }
 
-.nav__wrapper{
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.nav__wrapper {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.nav__left{
-    flex: 1;
-    display: flex;
-    align-items: center;
+.nav__left {
+  flex: 1;
+  display: flex;
+  align-items: center;
 }
 
-.nav__center{
-    flex: 1;
-    text-align: center;
-    font-family: "Dancing Script", cursive;
+.nav__center {
+  flex: 1;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
 }
 
-.nav__right{
-    flex: 1;
+.nav__right {
+  flex: 1;
 }
 
-.nav__language{
-    font-size: 14px;
-    cursor: pointer;
+.nav__language {
+  font-size: 14px;
+  cursor: pointer;
 }
 
-.nav__searchbar{
-    width: 35%;
-    display: flex;
-    align-items: center;
-    margin-left: 25px;
-    padding: 5px;
-    border-radius: 10px;
-    border: 1px solid lightgray;
+.nav__searchbar {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid lightgray;
 }
 .nav__input input {
-    border: none;
-    outline: none;
+  border: none;
+  outline: none;
 }
 
-
-.Menu-item{
-    font-size: 15px;
-    cursor: pointer;
-    display: flex;
-    gap:5%;
-    margin-left: 3rem;
-    justify-content: center;
-    
+.Menu-item {
+  font-size: 15px;
+  cursor: pointer;
+  display: flex;
+  gap: 5%;
+  margin-left: 3rem;
+  justify-content: center;
 }
-.icon{
-    display: flex;
-    gap: 20px;
+.icon {
+  display: flex;
+  gap: 20px;
 }
-
-
-

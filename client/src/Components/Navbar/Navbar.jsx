@@ -24,16 +24,17 @@ const Navbar = () => {
         </div>
         <div className="nav__right">
           <div className="Menu-item">
-          
-          <div> Register </div>
-          <div> Sign-in</div>
-          
-          <div className="icon">
-          <div className="icon__fav"><FaHeart/></div>
-          <div className="icon__cart"><FiShoppingCart/> </div>
-          
-          </div>
-         
+            <div> Register </div>
+            <div> Sign-in</div>
+
+            <div className="icon">
+              <div className="icon__fav">
+                <FaHeart />
+              </div>
+              <div className="icon__cart">
+                <FiShoppingCart />{" "}
+              </div>
+            </div>
           </div>
         </div>
       </div>

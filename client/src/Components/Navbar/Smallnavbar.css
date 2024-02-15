@@ -1,15 +1,15 @@
-.small-nav__container{
-    height: 20px;
-    background: lightblue;
-    color: black;
-    font-family:  "poppins" , sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.small-nav__container {
+  height: 20px;
+  background: lightblue;
+  color: black;
+  font-family: "poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.dummydata{
-    font-size: 12px;
-    font-weight: 400;
-    font-family: sans-serif;
+.dummydata {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: sans-serif;
 }
