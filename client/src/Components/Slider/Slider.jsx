@@ -21,7 +21,7 @@ const Slider = () => {
       id: 2,
       img: Image2,
       title: "AUTUMN COLLECTION",
-      desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+      desc: "DON'T COMPROMISE ON STYLE! GET FLAT 20% OFF FOR NEW ARRIVALS.",
       bg: "fcf1ed",
     },
     {
