@@ -3,6 +3,20 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    /* margin-top: 15%; */
+}
+.Products__heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 15%;
+  
 }
 
+.Products__heading h1 {
+   
+    margin-bottom: 20px;
+    font-family: "Dancing Script" , cursive;
+    font-size: 40px;
+    font-weight: 400;
+}

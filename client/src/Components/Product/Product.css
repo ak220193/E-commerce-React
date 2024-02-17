@@ -21,13 +21,14 @@
   
   .Product__image {
     flex-grow: 1;
+    display: flex;
+    justify-content: center;
   }
   
   .Product__image img {
-    width: 100%;
+    width: 80%;
     height: 100%;
     object-fit: contain; 
-    
   }
 
   .Product__image:hover {
