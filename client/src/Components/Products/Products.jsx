@@ -7,8 +7,8 @@ const Products = () => {
   return (
     <div className='Products__container'>
     {
-      popularProducts.map((item) => (
-        <Product item={item} key={item.id} />
+      popularProducts.map((item, index) => (
+        <Product item={item} key={index} />
     ))}
     </div>
   )
