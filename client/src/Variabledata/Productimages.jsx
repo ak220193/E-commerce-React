@@ -1,3 +1,5 @@
+import Img1 from "../Assets/pro2.png"
+
 export const popularProducts = [
     {
       id:1,
@@ -5,7 +7,7 @@ export const popularProducts = [
     },
     {
       id:2,
-      img:"https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388",
+      img:Img2,
     },
     {
       id:3,
