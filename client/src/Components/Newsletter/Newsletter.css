@@ -1,0 +1,48 @@
+.News-letter__container{
+    background-color: #fffbc9;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.news__heading{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-family: "poppins" ,sans-serif;
+}
+
+.news__description{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.news__inputcontainer{
+    width: 40%;
+    height:40px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-top: 20px;
+
+    
+}
+.news__inputcontainer input {
+    border: none;
+    flex:8;
+    padding-left: 25px;
+    
+}
+
+.btn{
+    flex: 1;
+    width: 20%;
+    border-radius: 10px;
+    background-color: teal ;
+    color: white;
+    border: none ;
+}
