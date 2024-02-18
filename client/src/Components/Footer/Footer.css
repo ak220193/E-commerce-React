@@ -1,3 +1,73 @@
-.Footer__container{
-    
+.Footer__container {
+  display: flex;
+}
+
+.Footer__left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.Footer__Logo {
+  margin: 10px;
+  padding: 8px;
+}
+.Logo {
+  font-family: "Dancing Script", cursive;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 1.5;
+}
+.desc  {
+  font-size: 15px;
+  margin: 20px 0px;
+  flex-wrap: wrap;
+  font-family: "Montestrat";
+}
+
+.Social__Container {
+  display: flex;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+  font-size: 20px;
+}
+.Footer__Center {
+  flex: 1;
+  padding: 20px;
+}
+
+.Title h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+
+.List {
+  margin-left: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+.List ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: start;
+}
+.List li {
+  width: 50%;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.Footer__right {
+  flex: 1;
 }
