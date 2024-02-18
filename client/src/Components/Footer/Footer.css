@@ -17,16 +17,19 @@
   font-weight: 600;
   font-size: 25px;
   line-height: 1.5;
+  text-align: center;
 }
 .desc  {
-  font-size: 15px;
-  margin: 20px 0px;
+  font-size: 16px;
+  margin: 20px 0px 10px 10px;
   flex-wrap: wrap;
   font-family: "Montestrat";
+
 }
 
 .Social__Container {
   display: flex;
+  
 }
 
 .social-icon {
@@ -36,11 +39,11 @@
   align-items: center;
   justify-content: center;
   margin-right: 8px;
-  font-size: 20px;
+  font-size: 25px;
 }
 .Footer__Center {
   flex: 1;
-  padding: 20px;
+  padding: 10px;
   margin-top:30px
 }
 
