@@ -8,7 +8,7 @@ import { ImPinterest } from "react-icons/im";
 import { MdLocationOn } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoMdMailUnread } from "react-icons/io";
-import payment from "../../Assets/payment.png"
+import payment from "../../Assets/payment.png";
 import Googleplay from "../../Assets/googleplay .png";
 
 const Footer = () => {
@@ -75,12 +75,10 @@ const Footer = () => {
               <IoMdMailUnread />
               akashvicky2012@gmail.com
             </p>
-            <div className="payment"> 
-            <img src={payment} alt="pay" />
-            <img src={Googleplay} style={{color:"white"}} alt="g-play" />
-            
+            <div className="payment">
+              <img src={payment} alt="pay" />
+              <img src={Googleplay} style={{ color: "white" }} alt="g-play" />
             </div>
-            
           </div>
         </div>
       </div>
