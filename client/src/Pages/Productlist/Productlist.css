@@ -1,13 +1,14 @@
-/* ProductList.css */
+
 
 .container {
   width: 100%;
   scroll-behavior: smooth;
 }
 
-.title {
+.title  {
   margin: 20px;
 }
+
 
 .filter-container {
   display: flex;

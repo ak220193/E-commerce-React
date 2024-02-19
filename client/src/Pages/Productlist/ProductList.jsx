@@ -11,7 +11,6 @@ const ProductList = () => {
     <div className="container">
       <SmallNavbar />
       <Navbar />
-
       <h1 className="title">Dresses</h1>
       <div className="filter-container">
         <div className="filter">
