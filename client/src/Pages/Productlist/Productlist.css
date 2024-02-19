@@ -1,39 +1,30 @@
 /* ProductList.css */
 
 .container {
-    flex:1;
-    margin-top: 20px;
-    /* margin-top: -20px; */
-  }
-  
-  .title {
-    margin: 20px;
-    
-  }
-  
-  .filter-container {
-    display: flex;
-    justify-content: space-between;
-   
-  
-  }
-  
-  .filter {
-    margin: 20px;
-   
-    
-  }
-  
-  .filter-text {
-    font-size: 20px;
-    font-weight: 600;
-    margin-right: 20px;
-  }
-  
-  .select {
-    padding: 10px;
-    margin-right: 20px;
-  }
-  
- 
-  
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+.title {
+  margin: 20px;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter {
+  margin: 30px ;
+}
+
+.filter-text {
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+.select {
+  padding: 10px;
+  margin-right: 20px;
+}

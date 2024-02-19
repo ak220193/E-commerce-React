@@ -5,8 +5,8 @@ import ProductList from './Pages/Productlist/ProductList';
 function App() {
   return (
     <div className="App">
-      
       <ProductList/>
+      
     </div>
   );
 }
