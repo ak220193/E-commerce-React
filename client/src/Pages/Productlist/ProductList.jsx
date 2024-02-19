@@ -1,5 +1,3 @@
-
-
 import React from "react";
 import "./Productlist.css";
 import Navbar from "../../Components/Navbar/Navbar";
@@ -11,8 +9,9 @@ import Footer from "../../Components/Footer/Footer";
 const ProductList = () => {
   return (
     <div className="container">
-      <Navbar />
       <SmallNavbar />
+      <Navbar />
+
       <h1 className="title">Dresses</h1>
       <div className="filter-container">
         <div className="filter">
